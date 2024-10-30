@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"title": "MB Spirit",
+	"name": "mb-spirit/shortcode-builder",
+	"category": "text",
+	"icon": "shortcode",
+	"textdomain": "mb-spirit",
+	"example": {},
+	"supports":{
+		"html":false
+	},
+	"attributes":{
+		"shortCode":{"type":"string"}
+	},
+	"editorScript": "file:./block.js"
+}
